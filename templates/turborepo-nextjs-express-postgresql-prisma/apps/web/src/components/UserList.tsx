@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import type { User, ApiResponse } from '{{PROJECT_NAME}}-shared'
+import type { User, ApiResponse } from 'my-app-shared'
 
 export function UserList() {
   const [users, setUsers] = useState<User[]>([])

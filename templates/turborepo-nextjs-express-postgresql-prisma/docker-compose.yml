@@ -3,11 +3,11 @@ version: '3.8'
 services:
   postgres:
     image: postgres:15-alpine
-    container_name: {{PROJECT_NAME}}-postgres
+    container_name: my-app-postgres
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: {{PROJECT_NAME}}
+      POSTGRES_DB: my-app
     ports:
       - "5432:5432"
     volumes:

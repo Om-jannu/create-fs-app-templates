@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  transpilePackages: ['{{PROJECT_NAME}}-shared'],
+  transpilePackages: ['my-app-shared'],
 };
 
 export default nextConfig;

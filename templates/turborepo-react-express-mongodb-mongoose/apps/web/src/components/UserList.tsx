@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import type { User, ApiResponse } from '{{PROJECT_NAME}}-shared'
+import type { User, ApiResponse } from 'my-app-shared'
 
 export function UserList() {
   const [users, setUsers] = useState<User[]>([])
@@ -17,7 +17,7 @@ export function UserList() {
         } else {
           setError(data.error || 'Failed to fetch users')
         }
-      } catch (err) {
+      } catch {
         setError('Failed to connect to API')
       } finally {
         setLoading(false)

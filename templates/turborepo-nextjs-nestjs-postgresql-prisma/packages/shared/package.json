@@ -1,5 +1,5 @@
 {
-  "name": "{{PROJECT_NAME}}-shared",
+  "name": "my-app-shared",
   "version": "0.1.0",
   "private": true,
   "main": "./src/index.ts",

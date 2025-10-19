@@ -22,8 +22,8 @@ async function bootstrap() {
 
   // Swagger documentation
   const config = new DocumentBuilder()
-    .setTitle('{{PROJECT_NAME}} API')
-    .setDescription('API documentation for {{PROJECT_NAME}}')
+    .setTitle('my-app API')
+    .setDescription('API documentation for my-app')
     .setVersion('1.0')
     .addTag('users')
     .build();

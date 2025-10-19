@@ -1,4 +1,4 @@
-# {{PROJECT_NAME}}
+# my-app
 
 MERN Stack application built with modern technologies.
 
@@ -55,7 +55,7 @@ npm run dev
 ## Project Structure
 
 ```
-{{PROJECT_NAME}}/
+my-app/
 ├── apps/
 │   ├── web/         # React + Vite frontend
 │   └── api/         # Express backend

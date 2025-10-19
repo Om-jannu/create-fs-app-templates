@@ -1,7 +1,7 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
 import { CreateUserDto } from './dto/create-user.dto';
-import type { ApiResponse } from '{{PROJECT_NAME}}-shared';
+import type { ApiResponse } from 'my-app-shared';
 import type { User } from '@prisma/client';
 
 @Injectable()

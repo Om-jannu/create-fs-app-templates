@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: true }));
 // Routes
 app.get('/', (req, res) => {
   res.json({
-    message: '{{PROJECT_NAME}} API is running',
+    message: 'my-app API is running',
     status: 'ok',
   });
 });

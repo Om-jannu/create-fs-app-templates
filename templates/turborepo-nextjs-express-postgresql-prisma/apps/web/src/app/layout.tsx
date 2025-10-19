@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "{{PROJECT_NAME}}",
+  title: "my-app",
   description: "Full-stack application built with Next.js and NestJS",
 };
 

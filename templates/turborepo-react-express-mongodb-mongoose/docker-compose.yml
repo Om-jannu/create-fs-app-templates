@@ -3,11 +3,11 @@ version: '3.8'
 services:
   mongodb:
     image: mongo:7-jammy
-    container_name: {{PROJECT_NAME}}-mongodb
+    container_name: my-app-mongodb
     environment:
       MONGO_INITDB_ROOT_USERNAME: admin
       MONGO_INITDB_ROOT_PASSWORD: password
-      MONGO_INITDB_DATABASE: {{PROJECT_NAME}}
+      MONGO_INITDB_DATABASE: my-app
     ports:
       - "27017:27017"
     volumes:

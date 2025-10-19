@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import { prisma } from '../index';
-import type { ApiResponse } from '{{PROJECT_NAME}}-shared';
+import type { ApiResponse } from 'my-app-shared';
 
 export const getUsers = async (req: Request, res: Response): Promise<void> => {
   try {

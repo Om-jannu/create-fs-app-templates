@@ -6,7 +6,7 @@ function App() {
       <div className="max-w-7xl mx-auto">
         <header className="mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-2">
-            {{PROJECT_NAME}}
+            my-app
           </h1>
           <p className="text-gray-600">
             MERN Stack with React, Express, MongoDB, and Mongoose

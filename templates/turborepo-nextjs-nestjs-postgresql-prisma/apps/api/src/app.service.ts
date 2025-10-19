@@ -4,7 +4,7 @@ import { Injectable } from '@nestjs/common';
 export class AppService {
   getHello(): { message: string; status: string } {
     return {
-      message: '{{PROJECT_NAME}} API is running',
+      message: 'my-app API is running',
       status: 'ok',
     };
   }

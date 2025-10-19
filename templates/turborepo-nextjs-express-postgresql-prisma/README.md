@@ -1,4 +1,4 @@
-# {{PROJECT_NAME}}
+# my-app
 
 Full-stack application with Next.js and Express.
 
@@ -62,7 +62,7 @@ npm run dev
 ## Project Structure
 
 ```
-{{PROJECT_NAME}}/
+my-app/
 ├── apps/
 │   ├── web/         # Next.js frontend
 │   └── api/         # Express backend
